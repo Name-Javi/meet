@@ -6,7 +6,7 @@ import { mockEvent } from '../mock-data';
 describe('<Event />', () => {
     let EventWrapper;
     beforeEach(() => {
-        EventWrapper = shallow(<Event content={mockEvent}/>)
+        EventWrapper = shallow(<Event event={mockEvent}/>)
     });
 
     test('renders the event summary, date, and location', () => {
